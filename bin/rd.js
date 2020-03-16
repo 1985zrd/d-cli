@@ -16,6 +16,7 @@ program
   .action(function (type, name, otherParams) {
     // 在这里执行具体的操作
     init(type, name, otherParams)
+    
   });
 
 program.parse(process.argv);
